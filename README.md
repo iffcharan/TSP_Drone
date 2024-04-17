@@ -12,7 +12,7 @@ This project presents an implementation of the Traveling Salesman Problem (TSP) 
 
 -->Final optimization phase: The tour undergoes final optimization techniques like 2-opt or 3-opt to further enhance the solution.
 
-# A Algorithm Integration:*
+# A* Algorithm Integration:
 
 -->A* algorithm is integrated into the drone improvement phase to find optimal paths between nodes.
 
