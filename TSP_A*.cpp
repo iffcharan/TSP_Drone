@@ -103,6 +103,7 @@ int main() {
         {4, 1, 20, {1, 4}},
         {4, 2, 25, {2, 4}},
         {4, 3, 30, {3, 4}}
+    //we can give dynamic inputs also but to reduce implementatioin complexity we provided a static example
     };
 
     // Start A* algorithm
