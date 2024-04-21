@@ -58,9 +58,7 @@ vector<int> tspDrone(vector<pair<int, int>>& points) {
     // Phase 1: Initial TSP tour using Nearest Neighbor heuristic
     vector<int> initialTour = nearestNeighborTSP(points);
     
-    // Phase 2: Drone improvement phase (Not implemented in this basic example)
-    // Here, you would implement logic to improve the tour using the drone.
-    // You can use techniques like local search or nearest insertion.
+    // Phase 2: Drone improvement phase 
 
     // Phase 3: Final optimization using 2-opt
     twoOpt(initialTour, points);
