@@ -53,21 +53,40 @@ void twoOpt(vector<int>& tour, vector<pair<int, int>>& points) {
     }
 }
 
+// Phase 2: Drone improvement phase 
+void droneImprovementPhase(vector<int>& tour, vector<pair<int, int>>& points) {
+    int n = tour.size();
+    bool improved = true;
+    while (improved) {
+        improved = false;
+        for (int i = 1; i < n - 2; ++i) {
+            double delta = distance(points[tour[i - 1]], points[tour[i + 1]])
+                         - distance(points[tour[i - 1]], points[tour[i]]) - distance(points[tour[i]], points[tour[i + 1]]);
+            if (delta < 0) {
+                swap(tour[i], tour[i + 1]);
+                improved = true;
+            }
+        }
+    }
+}
+
 // Main 3-pass TSP algorithm
 vector<int> tspDrone(vector<pair<int, int>>& points) {
     // Phase 1: Initial TSP tour using Nearest Neighbor heuristic
     vector<int> initialTour = nearestNeighborTSP(points);
     
     // Phase 2: Drone improvement phase 
-
+    //droneImprovementPhase(initialTour, points);
+    
     // Phase 3: Final optimization using 2-opt
     twoOpt(initialTour, points);
 
     return initialTour;
 }
 
+
 int main() {
-    vector<pair<int, int>> points = {{0, 0}, {1, 2}, {3, 1}, {5, 2}, {6, 4}};
+    vector<pair<int, int>> points = {{1, 2}, {3, 1}, {0, 0} ,{6, 4}, {5, 2}};
     vector<int> tour = tspDrone(points);
 
     cout << "TSP Tour: ";
