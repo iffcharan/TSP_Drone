@@ -29,7 +29,9 @@ This project presents an implementation of the Traveling Salesman Problem (TSP) 
 
 -->To run the code, use the syntax presented below:
 
-Usage: python3 <formulation.py> <instance_file> [options]
+Usage: 
+
+    python3 <formulation.py> <instance_file> [options]
 
     <formulation.py>     : formulation python file.
     
