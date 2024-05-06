@@ -1,9 +1,4 @@
 #!/usr/bin/env python
-"""
-Representation of a Flying Sidekick Traveling Salesman Problem (FSTSP) instance.
-"""
-__author__ = "Tulio Toffolo and Julia Caria"
-__copyright__ = "Copyright 2018, UFOP"
 
 import importlib
 import itertools
