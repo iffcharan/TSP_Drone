@@ -21,10 +21,12 @@ This project presents an implementation of the Traveling Salesman Problem (TSP) 
 -->Factors such as obstacles, wind conditions, and battery limitations are considered during pathfinding to ensure efficient drone               navigation.
 
 #Implementation
+
 --> Here we implemented A* and 3 pass algorithms C++ for understanding.
 --> And then to include real time data we used python and to calculate murray formulaes one must need gurobi.
 
 #How to execute
+
 -->To run the code, use the syntax presented below:
 
 Usage: gurobi.sh <formulation.py> <instance_file> [options]
