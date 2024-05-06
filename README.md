@@ -27,6 +27,8 @@ This project presents an implementation of the Traveling Salesman Problem (TSP) 
 
 # How to execute
 
+-->First clone this repo and only execute the folder tspd-python
+
 -->To run the code, use the syntax presented below:
 
 Usage: 
