@@ -23,6 +23,7 @@ This project presents an implementation of the Traveling Salesman Problem (TSP) 
 # Implementation
 
 --> Here we implemented A* and 3 pass algorithms C++ for understanding.
+
 --> And then to include real time data we used python and to calculate murray formulaes one must need gurobi.
 
 # How to execute
@@ -46,7 +47,6 @@ Options:
     
     -m <big_m_value>     : specify maximum objective value (default: 5000).
     
-    -murray              : use murray rules within formulation.
     
     -sol <solution_file> : read initial solution.
     
@@ -60,8 +60,6 @@ Options:
 Examples:
 
     python3 fstsp.py data/5a
-    
-    python3 murray_fstsp.py data/5b
     
     python3 fstsp.py data/5a -e 50 -m 100
     
