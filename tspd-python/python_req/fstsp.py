@@ -1,13 +1,4 @@
 # !/usr/bin/env python
-"""
-Compact formulation for the Flying Sidekick Traveling Salesman Problem (FSTSP)
-employing O(|V|^5) variables. Note that this formulation employs the rules proposed
-by Ponza (2016), except when the flag "murray_rules" is set, which applies the rules
-from Murray et al (2015).
-"""
-
-__author__ = "Julia Caria and Tulio Toffolo"
-__copyright__ = "Copyright 2018, UFOP"
 
 import os
 import sys
