@@ -46,15 +46,13 @@ Options:
     -e <drone_endurance> : specify drone battery endurance (default: 40).
     
     -m <big_m_value>     : specify maximum objective value (default: 5000).
-    
-    
+       
     -sol <solution_file> : read initial solution.
     
     -out <solution_file> : specify output solution file name.
     
     -time <time_limit>   : runtime limit in seconds (default: 900).
     
-    -validate            : use formulation only to validate the initial solution.
     
     
 Examples:
