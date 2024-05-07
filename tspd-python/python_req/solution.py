@@ -4,9 +4,6 @@ Representation of a Flying Sidekick Traveling Salesman Problem (FSTSP) solution.
 """
 from __future__ import print_function
 
-__author__ = "Tulio Toffolo"
-__copyright__ = "Copyright 2018, UFOP"
-
 import os
 
 
