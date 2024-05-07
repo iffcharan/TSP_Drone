@@ -1,10 +1,4 @@
 #!/usr/bin/env python
-"""
-Implementation of the compact formulation for the Flying Sidekick Traveling Salesman Problem
-(FSTSP) proposed by Murray and Chu (2014).
-"""
-__author__ = "Julia Caria and Tulio Toffolo"
-__copyright__ = "Copyright 2018, UFOP"
 
 import os
 import sys
